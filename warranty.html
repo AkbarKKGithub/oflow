@@ -94,7 +94,7 @@
             // Make a fetch request to a JSON endpoint
              document.getElementById('apiResponse').textContent = "";
             const apiParameter = document.getElementById('name').value;
-             const apiUrl ='https://script.google.com/macros/s/AKfycbwrej_Br4yLgBvF9tVQUc-C_0S-fBkOrznj1mx9P75GNfW58H8TKzU0QLV2-bMoj98K/exec?action=get&slno='+apiParameter;
+             const apiUrl ='https://script.google.com/macros/s/AKfycbzOXzGCu1uTggwGJoTabDV75HK9g3XHqum5Hlw2WPCLueiN3f4M8D8cbKEtedziQFdn/exec?action=get&slno='+apiParameter;
 
             fetch(apiUrl)
                .then(response => response.text())
